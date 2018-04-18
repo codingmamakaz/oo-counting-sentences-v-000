@@ -30,7 +30,7 @@ class String
     self.split(/\.|\?|!/)
     new_array = []
     new_array << self.reject{|c|c.empty?}
-
+    new_array.length
 # binding.pry
   end
 end
