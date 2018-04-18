@@ -28,7 +28,8 @@ class String
 
   def count_sentences
     self.split(/\.|\?|!/)
-    new_array = self
+    new_array = []
+    new_array << self
     new_array.reject{|c|c.empty?}
     new_array.length
 # binding.pry
