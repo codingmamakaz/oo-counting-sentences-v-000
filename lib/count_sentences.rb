@@ -31,6 +31,6 @@ class String
 
     self.delete(" ")
 
-    self.count ".?! "
+    self.count " "
   end
 end
