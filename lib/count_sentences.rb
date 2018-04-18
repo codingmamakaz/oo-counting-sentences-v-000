@@ -29,6 +29,6 @@ class String
   def count_sentences
     self.split(/\.|\?|!/)
     self.reject(&: blank?))
-binding.pry
+# binding.pry
   end
 end
