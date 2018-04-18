@@ -30,7 +30,7 @@ class String
     self.split ".?!"
 
     self.delete(" ")
-    
+
     self.count " "
   end
 end
