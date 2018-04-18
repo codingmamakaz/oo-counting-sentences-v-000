@@ -31,6 +31,6 @@ class String
 binding.pry
     self.delete(" ")
     b
-    self.count ".?!"
+    self.count " "
   end
 end
