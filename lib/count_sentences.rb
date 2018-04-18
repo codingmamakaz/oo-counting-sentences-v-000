@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     self.split(".")
+    binding.pry
     self.delete(" ")
     self.count ".?!"
   end
